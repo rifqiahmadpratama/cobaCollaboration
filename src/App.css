@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Home */
+.home-page .landing-page-1 {
+  height: 800px
+}
+
+.home-page .img-promotion {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  margin-right: 100px;
+}
