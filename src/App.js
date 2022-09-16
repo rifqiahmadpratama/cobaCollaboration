@@ -4,6 +4,7 @@ import './App.css';
 
 //pages
 import Home from "./pages/Home";
+import RecipeDetail from "./pages/RecipeDetail";
 // import SignIn from "./pages/Home";
 // import SignUp from "./pages/Home";
 // import Page404 from "./pages/404";
@@ -23,6 +24,7 @@ function App() {
 
         <Route path="/" element={<Navigate to="/home" replace="true" />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/recipe/:id" element={<RecipeDetail />} />
         {/* 
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/sign-in" element={<SignIn />} />
