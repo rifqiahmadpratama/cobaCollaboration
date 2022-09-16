@@ -19,8 +19,8 @@ const SignUp = () => {
           <div className="col-6 container text-start align-items-center">
             <form className="container form-sign-up">
               <div className="text-center">
-              <h2 className="text-warning">Let’s Get Started !</h2>
-              <h6 className="text-muted">Create new account to access all features</h6>
+                <h2 className="text-warning">Let’s Get Started !</h2>
+                <h6 className="text-muted">Create new account to access all features</h6>
               </div>
               <div className="justify-content-start">
                 <label for="name" class="form-label">
@@ -54,7 +54,6 @@ const SignUp = () => {
               </div>
               <div className="d-flex justify-content-start my-2">
                 <input classname="form-check-input" type="checkbox" value="" id="agree-user" />
-
                 <label className="form-check-label" for="agree-user">
                   I agree to terms & conditions
                 </label>
