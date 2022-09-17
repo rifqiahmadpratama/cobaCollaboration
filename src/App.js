@@ -4,14 +4,13 @@ import './App.css';
 
 //pages
 import Home from "./pages/Home";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 import RecipeDetail from "./pages/RecipeDetail";
-// import SignIn from "./pages/Home";
-// import SignUp from "./pages/Home";
-// import Page404 from "./pages/404";
+import PageNotFound from "./pages/PageNotFound";
 
 //modules
 // import { ToastContainer } from "react-toastify";
-
 
 function App() {
   // let location = useLocation();
@@ -25,15 +24,13 @@ function App() {
         <Route path="/" element={<Navigate to="/home" replace="true" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/recipe/:id" element={<RecipeDetail />} />
-        {/* 
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/sign-in" element={<SignIn />} />
 
-        <Route path="*" element={<Page404 />} /> */}
+        <Route path="*" element={<PageNotFound />} />
 
       </Routes>
       {/* <ToastContainer /> */}
-
     </>
 
   );
