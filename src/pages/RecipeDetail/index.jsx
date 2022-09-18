@@ -88,7 +88,7 @@ const RecipeDetail = () => {
             <li className='py-3'><button style={styles.btn}><BsPlay size={30} /></button></li>
           </ul>
           <div className="mb-3" style={styles.textarea}>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="9" placeholder='Comment :'></textarea>
+            <textarea className="form-control" id="comment" rows="9" placeholder='Comment :'></textarea>
             <div className='py-4 text-center'>
               <button style={styles.send}>Send</button>
             </div>

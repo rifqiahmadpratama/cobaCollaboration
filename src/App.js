@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import RecipeDetail from "./pages/RecipeDetail";
+import RecipeAdd from "./pages/RecipeAdd";
+import RecipeUpdate from "./pages/RecipeUpdate";
 import PageNotFound from "./pages/PageNotFound";
 
 //modules
@@ -24,6 +26,8 @@ function App() {
         <Route path="/" element={<Navigate to="/home" replace="true" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/recipe/:id" element={<RecipeDetail />} />
+        <Route path="/recipe/add" element={<RecipeAdd />} />
+        <Route path="/recipe/update/:id" element={<RecipeUpdate />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/sign-in" element={<SignIn />} />
 
