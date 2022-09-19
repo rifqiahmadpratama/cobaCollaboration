@@ -24,7 +24,7 @@ const RecipeAdd = () => {
   return (
     <div>
       <Navbar />
-      <div className='text-center mb-5'>
+      <div className='text-center mb-5' style={styles.recipeAdd}>
         <h1 style={styles.h1} className='py-5'>Add Recipe</h1>
         <RecipePhotoDropzone onDrop={onDrop} />
         <div class="mb-3 py-3" style={styles.form}>

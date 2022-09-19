@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import './index.css';
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
       <div class="footer-global">
         <footer class="container py-5 border-top">
           <div className="col-12 text-center mb-5">
-            <h1 className="">Eat, Cook, Repeat</h1>
+            <h1><b>Eat, Cook, Repeat</b></h1>
             <h5 className="text-muted">Share your best recipe by uploading here !</h5>
           </div>
           <div className="col-12 d-flex justify-content-center">

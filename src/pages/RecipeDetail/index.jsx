@@ -60,13 +60,13 @@ const RecipeDetail = () => {
   return (
     <div>
       <Navbar />
-      <div className='text-center mb-5'>
+      <div className='text-center mb-5' style={styles.recipeDetail}>
         <h1 style={styles.h1} className='py-5'>Loream Sandwich</h1>
         <img src={require('../../assets/images/Rectangle313.jpg')} width={1082} height={700} />
-        <button style={like} onMouseEnter={handleMouseLikeEnter} onMouseLeave={handleMouseLikeLeave}>
+        <button className='border border-warning' style={like} onMouseEnter={handleMouseLikeEnter} onMouseLeave={handleMouseLikeLeave}>
           <BiLike size={20} />
         </button>
-        <button style={bookmark} onMouseEnter={handleMouseBookmarkEnter} onMouseLeave={handleMouseBookmarkLeave}>
+        <button className='border border-warning' style={bookmark} onMouseEnter={handleMouseBookmarkEnter} onMouseLeave={handleMouseBookmarkLeave}>
           <FiBookmark size={20} />
         </button>
         <div className='text-start' style={styles.recipeInfo}>

@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 
 const Navbar = () => {
   return (
@@ -11,13 +12,13 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item px-3 py-3">
-                <a className="nav-link" aria-current="page" href="/home">Home</a>
+                <a className="nav-link link-primary" aria-current="page" href="/home"><b>Home</b></a>
               </li>
               <li className="nav-item px-3 py-3">
-                <a className="nav-link" aria-current="page" href="/recipe/add">Add Recipe</a>
+                <a className="nav-link link-primary" aria-current="page" href="/recipe/add"><b>Add Recipe</b></a>
               </li>
               <li className="nav-item px-3 py-3">
-                <a className="nav-link" aria-current="page" href="#">Profile</a>
+                <a className="nav-link link-primary" aria-current="page" href="#"><b>Profile</b></a>
               </li>
             </ul>
           </div>

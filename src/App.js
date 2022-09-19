@@ -2,6 +2,13 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 import './App.css';
 
+import './assets/font/AirbnbCereal_W_Bd.otf'
+import './assets/font/AirbnbCereal_W_Bk.otf'
+import './assets/font/AirbnbCereal_W_Blk.otf'
+import './assets/font/AirbnbCereal_W_Lt.otf'
+import './assets/font/AirbnbCereal_W_Md.otf'
+import './assets/font/AirbnbCereal_W_XBd.otf'
+
 //pages
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";

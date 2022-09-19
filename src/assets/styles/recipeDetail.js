@@ -1,6 +1,10 @@
 const style = {
+  recipeDetail: {
+    fontFamily: 'Light'
+  },
   h1: {
-    fontSize: '65px'
+    fontSize: '65px',
+    color: '#2E266F'
   },
   recipeInfo: {
     margin: '42px 145px'

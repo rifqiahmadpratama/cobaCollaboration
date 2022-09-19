@@ -7,6 +7,42 @@
   pointer-events: none;
 }
 
+@font-face {
+  font-family: "Bold";
+  src: local("AirbnbCereal_W_Bd"),
+    url("./assets/font/AirbnbCereal_W_Bd.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Book";
+  src: local("AirbnbCereal_W_Bk"),
+    url("./assets/font/AirbnbCereal_W_Bk.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Black";
+  src: local("AirbnbCereal_W_Blk"),
+    url("./assets/font/AirbnbCereal_W_Blk.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Light";
+  src: local("AirbnbCereal_W_Lt"),
+    url("./assets/font/AirbnbCereal_W_Lt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("AirbnbCereal_W_Md"),
+    url("./assets/font/AirbnbCereal_W_Md.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ExtraBold";
+  src: local("AirbnbCereal_W_XBd"),
+    url("./assets/font/AirbnbCereal_W_XBd.otf") format("opentype");
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
